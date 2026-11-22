@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yusuf Delay</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+<h1>Yusuf Delay</h1>
+<p>Live Audio Delay</p>
+</header>
+
+<section class="panel">
+<h2>Live Microphone</h2>
+
+<button id="mic1">Mic 1</button>
+<button id="mic2">Mic 2</button>
+<button id="bothMics">Both Mics</button>
+</section>
+
+<section class="panel">
+<h2>Live Output</h2>
+
+<button id="auto">Auto</button>
+<button id="phoneSpeaker">Phone Speaker</button>
+<button id="earphone">Earphone</button>
+<button id="bluetooth">Bluetooth Speaker</button>
+</section>
+
+<section class="panel">
+<h2>Delay Control</h2>
+
+<label for="delayTime">Delay Time</label>
+
+<input
+type="range"
+id="delayTime"
+min="0"
+max="1000"
+value="250"
+>
+
+<p id="delayValue">250 ms</p>
+</section>
+
+<section class="panel">
+<h2>Audio Control</h2>
+
+<button id="startAudio">Start Audio</button>
+<button id="stopAudio">Stop Audio</button>
+</section>
+
+<footer>
+<p>Yusuf Delay</p>
+</footer>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
